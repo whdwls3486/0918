@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset = "UFT-8">
+	<title>WebStorage example</title>
+</head>
+<body>
+
+	<script>
+		//save highscore date
+		localStorage.setItem("highscore", "152400");
+
+
+		// date can later be retrieved, even on other pages.
+		var highscore = localStorage.getItem("highscore");
+		alert(highscore);
+
+	</script>
+
+</body>
+</html>
